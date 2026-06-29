@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vancropsal.com/sitemap.xml
+Sitemap: https://cropsal.com/sitemap.xml
