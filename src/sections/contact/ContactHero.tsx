@@ -27,7 +27,7 @@ export default function ContactHero() {
       <div className="relative z-10 px-8 pb-16 lg:px-16 lg:pb-20 max-w-[1200px] w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div>
-            <h1 className="contact-hero-title font-display text-5xl lg:text-6xl text-white mb-6">
+            <h1 className="contact-hero-title hidden lg:block font-display text-5xl lg:text-6xl text-white mb-6">
               Van Cropsal
             </h1>
             <p className="text-white/70 font-sans text-lg">{t.contact.brokerTitle}</p>
