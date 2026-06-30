@@ -17,7 +17,7 @@ export default function ContactHero() {
   return (
     <section
       ref={containerRef}
-      className="relative min-h-[60vh] flex items-end"
+      className="relative min-h-[60vh] flex items-start pt-28 pb-8 lg:items-end lg:pt-0 lg:pb-0"
       style={{
         backgroundImage: `linear-gradient(to bottom, rgba(26, 32, 44, 0.3), rgba(26, 32, 44, 0.7)), url('/images/hero-contact.jpg')`,
         backgroundSize: 'cover',
