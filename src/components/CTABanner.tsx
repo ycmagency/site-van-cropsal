@@ -23,7 +23,7 @@ export default function CTABanner({
   const finalHeadline = headline ?? t.cta.headline
   const finalButton = buttonText ?? t.cta.button
   return (
-    <section className="bg-cream">
+    <section className="bg-cream overflow-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         {/* Left Image */}
         {square ? (
