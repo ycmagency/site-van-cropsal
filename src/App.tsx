@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import HamburgerOverlay from './components/HamburgerOverlay'
 import ChatWidget from './components/ChatWidget'
+import CookieConsent from './components/CookieConsent'
 import Home from './pages/Home'
 import Vendre from './pages/Vendre'
 import Acheter from './pages/Acheter'
@@ -52,6 +53,7 @@ function App() {
       </main>
       <Footer />
       {!menuOpen && <ChatWidget />}
+      <CookieConsent />
     </div>
   )
 }
