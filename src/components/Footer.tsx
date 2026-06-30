@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { ExternalLink } from 'lucide-react'
-import ScrollReveal from './ScrollReveal'
 import Logo from './Logo'
 import { useLang } from '../i18n/LanguageContext'
 
@@ -9,8 +8,7 @@ export default function Footer() {
   return (
     <footer>
       {/* Top Section */}
-      <ScrollReveal>
-        <div className="bg-cream py-16 px-8">
+      <div className="bg-cream py-16 px-8">
           <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
             {/* Newsletter */}
             <div>
@@ -95,7 +93,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </ScrollReveal>
 
       {/* Bottom Section */}
       <div className="bg-navy py-6 px-8">
