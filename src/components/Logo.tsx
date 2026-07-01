@@ -9,11 +9,11 @@ export default function Logo({ variant = 'dark', size = 'md' }: LogoProps) {
 
   return (
     <div className="flex items-center gap-2 sm:gap-3 shrink-0">
-      {/* Monogramme VC */}
+      {/* Logo RE/MAX */}
       <img
-        src="/images/vc-monogram.png"
-        alt="Van Cropsal"
-        className={`${size === 'sm' ? 'h-6 sm:h-7' : 'h-7 sm:h-9'} w-auto ${variant === 'light' ? 'invert' : ''}`}
+        src="/images/remax-emblem.png"
+        alt="RE/MAX"
+        className={`${size === 'sm' ? 'h-8 sm:h-9' : 'h-9 sm:h-11'} w-auto`}
       />
 
       {/* Filet de séparation */}
