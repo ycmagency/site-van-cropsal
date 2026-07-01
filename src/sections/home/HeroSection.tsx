@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { Play, ChevronDown } from 'lucide-react'
@@ -8,6 +8,18 @@ import { useLang } from '../../i18n/LanguageContext'
 export default function HeroSection() {
   const containerRef = useRef<HTMLDivElement>(null)
   const { t } = useLang()
+
+  // Vidéo différente selon l'écran : verticale sur mobile, horizontale sur desktop (breakpoint lg = 1024px)
+  const [isMobile, setIsMobile] = useState(
+    () => typeof window !== 'undefined' && window.matchMedia('(max-width: 1023px)').matches
+  )
+
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 1023px)')
+    const handler = (e: MediaQueryListEvent) => setIsMobile(e.matches)
+    mq.addEventListener('change', handler)
+    return () => mq.removeEventListener('change', handler)
+  }, [])
 
   useGSAP(() => {
     if (!containerRef.current) return
@@ -28,16 +40,17 @@ export default function HeroSection() {
       ref={containerRef}
       className="relative min-h-[100lvh] flex items-end overflow-hidden bg-navy"
     >
-      {/* Vidéo de fond */}
+      {/* Vidéo de fond — verticale sur mobile, horizontale sur desktop */}
       <video
+        key={isMobile ? 'mobile' : 'desktop'}
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay
         muted
         loop
         playsInline
-        poster="/videos/hero-poster.jpg"
+        poster={isMobile ? '/videos/hero-mobile-poster.jpg' : '/videos/hero-poster.jpg'}
       >
-        <source src="/videos/hero.mp4" type="video/mp4" />
+        <source src={isMobile ? '/videos/hero-mobile.mp4' : '/videos/hero.mp4'} type="video/mp4" />
       </video>
       {/* Voile pour la lisibilité du texte */}
       <div className="absolute inset-0 bg-gradient-to-b from-navy/30 to-navy/65" />
