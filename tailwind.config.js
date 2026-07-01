@@ -44,8 +44,8 @@ module.exports = {
           light: '#2D3748',
         },
         teal: {
-          DEFAULT: '#1D4ED8',
-          dark: '#1E3A8A',
+          DEFAULT: '#3B9FE0',
+          dark: '#2B7FBB',
         },
         cream: '#F7FAFC',
       },
