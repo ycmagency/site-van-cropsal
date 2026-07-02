@@ -76,9 +76,9 @@ export default function HeroSection() {
       </div>
 
       {/* Indicateur "glisser vers le bas" — mobile uniquement */}
-      <div className="lg:hidden absolute bottom-6 inset-x-0 z-10 flex flex-col items-center gap-1 animate-bounce">
+      <div className="lg:hidden absolute bottom-6 inset-x-0 z-10 flex flex-col items-center gap-1">
         <span className="text-white/70 font-sans text-[11px] tracking-wider uppercase">Glisser vers le bas</span>
-        <ChevronDown size={18} className="text-white/70" />
+        <ChevronDown size={18} className="text-white/70 animate-bounce-slow" />
       </div>
     </section>
   )
