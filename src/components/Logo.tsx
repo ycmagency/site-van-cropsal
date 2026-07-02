@@ -11,7 +11,7 @@ export default function Logo({ variant = 'dark', size = 'md' }: LogoProps) {
     <div className="flex items-center gap-2 sm:gap-3 shrink-0">
       {/* Logo RE/MAX */}
       <img
-        src="/images/remax-emblem.png"
+        src="/images/remax-balloon-mark.png"
         alt="RE/MAX"
         className={`${size === 'sm' ? 'h-8 sm:h-9' : 'h-9 sm:h-11'} w-auto`}
       />
