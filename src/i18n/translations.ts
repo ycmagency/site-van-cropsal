@@ -27,7 +27,7 @@ export const translations = {
     },
     hero: {
       overline: 'Van Cropsal – RE/MAX Alliance & Pro-Commercial',
-      headline: "L'immobilier à la hauteur de vos ambitions",
+      headline: 'PROPRIÉTÉS RÊVÉES',
       cta: 'Discutons de vos objectifs',
     },
     about: {
