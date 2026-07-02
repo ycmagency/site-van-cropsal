@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { Play, ChevronDown } from 'lucide-react'
+import { ArrowRight, ChevronDown } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { useLang } from '../../i18n/LanguageContext'
 
@@ -55,23 +55,23 @@ export default function HeroSection() {
       {/* Voile pour la lisibilité du texte */}
       <div className="absolute inset-0 bg-gradient-to-b from-navy/30 to-navy/65" />
 
-      <div className="relative z-10 px-8 pb-56 lg:px-16 lg:pb-64 max-w-[1200px]">
-        <p className="hero-overline text-white/70 font-sans text-sm tracking-wider mb-4">
+      <div className="relative z-10 px-8 pb-52 lg:px-16 lg:pb-64 max-w-[1200px]">
+        <p className="hero-overline text-white/70 font-sans text-xs lg:text-sm tracking-wider mb-3 lg:mb-4">
           {t.hero.overline}
           <span className="hidden sm:inline mx-2 text-white/30">·</span>
           <a href="tel:+14384029471" className="block sm:inline mt-1 sm:mt-0 text-white hover:text-teal transition-colors">
             438 402-9471
           </a>
         </p>
-        <h1 className="hero-headline font-display text-5xl lg:text-7xl text-white mb-8">
+        <h1 className="hero-headline font-display text-4xl lg:text-7xl text-white mb-6 lg:mb-8">
           {t.hero.headline}
         </h1>
         <Link
           to="/contact"
-          className="hero-cta nav-link-underline inline-flex items-center gap-2 text-teal font-sans text-base font-light tracking-wider hover:text-teal-dark transition-colors"
+          className="hero-cta group inline-flex items-center gap-2.5 font-sans tracking-wider transition-all duration-300 text-teal text-sm font-medium underline underline-offset-8 decoration-2 hover:text-teal-dark lg:no-underline lg:rounded-full lg:bg-teal lg:px-8 lg:py-4 lg:text-white lg:text-sm lg:shadow-lg lg:shadow-navy/40 lg:hover:bg-teal-dark lg:hover:text-white lg:hover:-translate-y-0.5 lg:hover:shadow-xl"
         >
-          <Play size={15} fill="currentColor" />
           {t.hero.cta}
+          <ArrowRight size={15} className="lg:w-[17px] lg:h-[17px] transition-transform duration-300 group-hover:translate-x-1" />
         </Link>
       </div>
 
