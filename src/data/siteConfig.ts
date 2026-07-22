@@ -3,7 +3,7 @@ export const SITE = {
   name: 'Van Cropsal — Courtier immobilier',
   shortName: 'Van Cropsal',
   // Domaine final du site (à ajuster si différent).
-  url: 'https://cropsal.com',
+  url: 'https://vancropsal.ca',
   defaultImage: '/images/hero-home.jpg',
   locale: 'fr_CA',
   broker: {
