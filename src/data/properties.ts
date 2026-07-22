@@ -24,7 +24,7 @@ export const properties: Property[] = [
   {
     id: 'alice-carriere',
     image: '/images/listings/alice-carriere.jpg',
-    listingUrl: 'https://cropsal.com/fr/nos-proprietes/beaconsfield/235-alice-carriere-street/11547240',
+    listingUrl: 'https://remax-alliance.ca/fr/nos-proprietes/beaconsfield/235-alice-carriere-street/11547240',
     badge: 'À vendre',
     status: 'vente',
     address: '235, rue Alice-Carrière',
@@ -41,7 +41,7 @@ export const properties: Property[] = [
   {
     id: 'rotonde',
     image: '/images/listings/rotonde.jpg',
-    listingUrl: 'https://cropsal.com/fr/nos-proprietes/montreal-verdun-ile-des-soeurs/151-rue-de-la-rotonde/26185207',
+    listingUrl: 'https://remax-alliance.ca/fr/nos-proprietes/montreal-verdun-ile-des-soeurs/151-rue-de-la-rotonde/26185207',
     badge: 'À vendre',
     status: 'vente',
     address: '151, rue de la Rotonde',
@@ -58,7 +58,7 @@ export const properties: Property[] = [
   {
     id: 'claude-masson-z',
     image: '/images/listings/claude-masson-z.jpg',
-    listingUrl: 'https://cropsal.com/fr/nos-proprietes/montreal-mercier-hochelaga-maisonneuve/5824z-rue-claude-masson/17042189',
+    listingUrl: 'https://remax-alliance.ca/fr/nos-proprietes/montreal-mercier-hochelaga-maisonneuve/5824z-rue-claude-masson/17042189',
     badge: 'À vendre',
     status: 'vente',
     address: '5824Z, rue Claude-Masson',
@@ -75,7 +75,7 @@ export const properties: Property[] = [
   {
     id: 'domaine-grenier',
     image: '/images/listings/domaine-grenier.jpg',
-    listingUrl: 'https://cropsal.com/fr/nos-proprietes/saint-liguori/40-rue-du-domaine-grenier/21090669',
+    listingUrl: 'https://remax-alliance.ca/fr/nos-proprietes/saint-liguori/40-rue-du-domaine-grenier/21090669',
     badge: 'À vendre',
     status: 'vente',
     address: '40, rue du Domaine-Grenier',
@@ -92,7 +92,7 @@ export const properties: Property[] = [
   {
     id: 'eglise',
     image: '/images/listings/eglise.jpg',
-    listingUrl: 'https://cropsal.com/fr/nos-proprietes/saint-remi/117-rue-de-l-eglise/27071854',
+    listingUrl: 'https://remax-alliance.ca/fr/nos-proprietes/saint-remi/117-rue-de-l-eglise/27071854',
     badge: 'À vendre',
     status: 'vente',
     address: "117, rue de l'Église",
@@ -108,7 +108,7 @@ export const properties: Property[] = [
   {
     id: 'anderson',
     image: '/images/listings/anderson.jpg',
-    listingUrl: 'https://cropsal.com/fr/nos-proprietes/montreal-pierrefonds-roxboro/4520-rue-anderson/11183653',
+    listingUrl: 'https://remax-alliance.ca/fr/nos-proprietes/montreal-pierrefonds-roxboro/4520-rue-anderson/11183653',
     badge: 'À vendre',
     status: 'vente',
     address: '4520, rue Anderson',
@@ -124,7 +124,7 @@ export const properties: Property[] = [
   {
     id: 'st-augustin',
     image: '/images/listings/st-augustin.jpg',
-    listingUrl: 'https://cropsal.com/fr/nos-proprietes/mandeville/rg-st-augustin/23927882',
+    listingUrl: 'https://remax-alliance.ca/fr/nos-proprietes/mandeville/rg-st-augustin/23927882',
     badge: 'Terrain',
     status: 'vente',
     address: 'Rang St-Augustin',
@@ -138,7 +138,7 @@ export const properties: Property[] = [
   {
     id: 'st-andre-vente',
     image: '/images/listings/st-andre-vente.jpg',
-    listingUrl: 'https://cropsal.com/fr/nos-proprietes/laval-pont-viau/557-rue-st-andre/23419443',
+    listingUrl: 'https://remax-alliance.ca/fr/nos-proprietes/laval-pont-viau/557-rue-st-andre/23419443',
     badge: 'À vendre',
     status: 'vente',
     address: '557, rue St-André',
@@ -154,7 +154,7 @@ export const properties: Property[] = [
   {
     id: 'saulnier',
     image: '/images/listings/saulnier.jpg',
-    listingUrl: 'https://cropsal.com/fr/nos-proprietes/repentigny-repentigny/795-rue-saulnier/10351674',
+    listingUrl: 'https://remax-alliance.ca/fr/nos-proprietes/repentigny-repentigny/795-rue-saulnier/10351674',
     badge: 'À vendre',
     status: 'vente',
     address: '795, rue Saulnier',
@@ -170,7 +170,7 @@ export const properties: Property[] = [
   {
     id: 'cure-labelle',
     image: '/images/listings/cure-labelle.jpg',
-    listingUrl: 'https://cropsal.com/fr/nos-proprietes/laval-sainte-rose/121-boul-cure-labelle/10426285',
+    listingUrl: 'https://remax-alliance.ca/fr/nos-proprietes/laval-sainte-rose/121-boul-cure-labelle/10426285',
     badge: 'À vendre',
     status: 'vente',
     address: '121, boul. Curé-Labelle',
@@ -186,7 +186,7 @@ export const properties: Property[] = [
   {
     id: 'st-andre-location',
     image: '/images/listings/st-andre-vente.jpg',
-    listingUrl: 'https://cropsal.com/fr/nos-proprietes/laval-pont-viau/557-rue-st-andre/23419443',
+    listingUrl: 'https://remax-alliance.ca/fr/nos-proprietes/laval-pont-viau/557-rue-st-andre/23419443',
     badge: 'À louer',
     status: 'location',
     address: '557, rue St-André',
@@ -202,7 +202,7 @@ export const properties: Property[] = [
   {
     id: 'robert-elie',
     image: '/images/listings/robert-elie.jpg',
-    listingUrl: 'https://cropsal.com/fr/nos-proprietes/laval-laval-des-rapides/603-rue-robert-elie/27689933',
+    listingUrl: 'https://remax-alliance.ca/fr/nos-proprietes/laval-laval-des-rapides/603-rue-robert-elie/27689933',
     badge: 'À louer',
     status: 'location',
     address: '1607-603, rue Robert-Élie',
